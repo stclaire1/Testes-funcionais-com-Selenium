@@ -1,0 +1,272 @@
+{
+  "id": "b37ccd4f-5bdc-4548-86ee-f085a0a0db5c",
+  "version": "2.0",
+  "name": "projetoSelenium",
+  "url": "http://localhost:8080/home",
+  "tests": [{
+    "id": "9bbe0c6f-0e6c-4503-9b72-2262ab7d3c58",
+    "name": "testarAtualizar",
+    "commands": [{
+      "id": "80019bf4-0fba-4be2-9a55-915c6a0cf535",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b64ab24-cb7a-44af-875f-48ea92c8d26a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9ea32e1-8421-46d8-95b2-cb7a9cebfe95",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > .btn",
+      "targets": [
+        ["css=a:nth-child(3) > .btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Adicionar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43e73a10-862d-4974-a05b-2231142ebc12",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27cab12b-b4f4-4617-9a65-dfbd7e2b0d93",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Isabela Queiroz"
+    }, {
+      "id": "a1f19fbf-f608-46c0-9725-f161fed5964d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ecafb39a-54cc-4e6c-85ce-32be239bd6f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=email", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "isabela@gmail.com"
+    }, {
+      "id": "e952d4cd-cbb9-4522-bdf0-a53237eee444",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=email", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3fa9dbf3-768c-4110-8e8c-7511ee69b019",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEspecialidade",
+      "targets": [
+        ["id=inputEspecialidade", "id"],
+        ["name=especialidade", "name"],
+        ["css=#inputEspecialidade", "css:finder"],
+        ["xpath=//input[@id='inputEspecialidade']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Cirurgia ocular"
+    }, {
+      "id": "5394574c-e0b3-461c-baa2-355028b629e6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputEspecialidade",
+      "targets": [
+        ["id=inputEspecialidade", "id"],
+        ["name=especialidade", "name"],
+        ["css=#inputEspecialidade", "css:finder"],
+        ["xpath=//input[@id='inputEspecialidade']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fb697214-f1c5-48db-906c-c973f698ea3e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputSalario",
+      "targets": [
+        ["id=inputSalario", "id"],
+        ["name=salario", "name"],
+        ["css=#inputSalario", "css:finder"],
+        ["xpath=//input[@id='inputSalario']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "10000.00"
+    }, {
+      "id": "008e5545-c6c2-4953-97df-9d2feeacae35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "556a8f83-5a9a-4e20-ac9b-5a58ec3b2b78",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .btn-warning > .fa",
+      "targets": [
+        ["css=tr:nth-child(4) .btn-warning > .fa", "css:finder"],
+        ["xpath=//tr[4]/td[5]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f19910f7-4dcb-4423-a14d-236d3a4eae56",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed8847a8-a51f-4b55-809b-377ce13c9c84",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d0abcc9-7fa7-4472-bdb4-8394acfff80c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2704dd0f-b5f2-4337-8202-7e301b942be3",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ana Clara"
+    }, {
+      "id": "cc7054bd-86af-4955-b884-9f3e0625ee0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=email", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "ana@gmail.com"
+    }, {
+      "id": "2fb2f06d-5b51-4fd8-a1b1-c7bf615762a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEspecialidade",
+      "targets": [
+        ["id=inputEspecialidade", "id"],
+        ["name=especialidade", "name"],
+        ["css=#inputEspecialidade", "css:finder"],
+        ["xpath=//input[@id='inputEspecialidade']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Cirurgia focinho"
+    }, {
+      "id": "d89034e8-5d89-45db-a0f5-ffc06b843e81",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputSalario",
+      "targets": [
+        ["id=inputSalario", "id"],
+        ["name=salario", "name"],
+        ["css=#inputSalario", "css:finder"],
+        ["xpath=//input[@id='inputSalario']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2000.00"
+    }, {
+      "id": "166cdbd4-85b1-4b6d-a47c-fbcccd11982b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Atualizar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "36dc774e-f202-4bf5-b0cf-f9fd6860d0fa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
